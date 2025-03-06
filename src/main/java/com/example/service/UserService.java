@@ -29,4 +29,7 @@ public class UserService {
     public Optional<User> getUserByEmail(String email) {
         return userRepository.findByEmail(email);
     }
+    public void deleteUser(String id) {
+        userRepository.deleteById(id);
+    }
 }
