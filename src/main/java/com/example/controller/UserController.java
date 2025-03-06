@@ -1,8 +1,8 @@
 package com.example.controller;
 
 import java.util.List;
+import java.util.Optional;
 
-import org.apache.el.stream.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.example.model.User;
 import com.example.service.UserService;
-import java.util.Optional;
+
 
 
 @RestController
